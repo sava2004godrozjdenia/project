@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Доставка</title>
+	<meta charset="UTF-8" />
+<link rel="stylesheet" href="css/css.css">
+  <link href="css/jqcart.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jqcart.min.js"></script>
+<script src="js/developer/jqcart.js"></script>
+</head>
+<body>
+	<script>
+$(function(){
+  'use strict'; 
+  // инициализация плагина
+  $.jqCart({
+      buttons: '.add_item',
+      handler: 'php/handler.php',
+      cartLabel: '.label-place',
+      visibleLabel: true,
+      openByAdding: false,
+      currency: '&euro;'
+  }); 
+});
+</script>
+
+</head>
+<body>
+<div id="wraper">
+
+<div id="infohead"></div>
+
+
+
+
+<div id="header">
+
+<nav>
+            <ul class="menu1">
+             <li><a href="Sait.html" >Главная</a></li>
+            <li><a href="Sait.html">Меню</a></li>
+            <li><a href="Dostavka.html">Доставка</a></li>
+            <li><a href="#">Акции</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Франшиза</a></li>
+          <li><a href="#">Контакты</a></li>
+            <li><a class="label-place"></a></li>
+          	</ul>
+</nav>
+
+
+
+</div>
+
+<div class="zak">
+	<h1>ЗАКАЗЫ НА ДОСТАВКУ ПРИНИМАЕМ</h1>
+	<p>С 11:00 до 22:30<br>Ежедневно без выходных.</p>
+
+</div>
+
+<div class="gotov">
+	<h1>Готовим 30 минут</h1>
+	<h1>Везем 30 минут</h1>
+	<p>Территория доставки может быть ограничена в связи с погодными условиями. Наш сотрудник свяжется и уточнит<br> возможность доставки заказа по указанному адресу. Очено скоро мы откроемся ближе к тебе, а значит,<br> расширим географию доставки!</p>
+	<h2>Следи за новостями в соцсетях и на нашем сайте!</h2>
+	<h3>Стоимость доставки 200 рублей.<br>При заказе от 1000 рублей доставка БЕСПЛАТНО!</h3>
+
+</div>
+
+<div class="predupr">
+	<h1>ВНИМАНИЕ!</h1>
+	<p>Открыта доставка на Правый и Левый берег,расширена зона доставки! При плохих погодных условиях и<br>массовых мероприятиях время доставки может быть увеличено!</p>
+
+</div>
+
+<div class="vselast">
+
+	<h1>Способы оплаты</h1>
+	<h3>Наличный расчет</h3>
+	<p>Если товар доставляется курьером, то оплата осуществляется наличными курьеру в руки.<br> При получении товара обязательно проверьте комплектацию заказа и наличие чека.</p>
+	<h3>Банковской картой расчет</h3>
+	<p>Для выбора оплаты товара с помощью банковской карты при оформлении заказа выберите тип оплаты <<Оплата on-line>>.<br>Оплата происходит через <<Компания>>с использованием Банковских карт следующих платежных систем МИР, VISA, Mastercard.</p>
+	<h1>Условия по возврату</h1>
+	<p>Товар возврату и обмену не подлежат.</p>
+
+</div>
+
+<div id="lastinfo">
+
+  <div class="pay1">
+  <p>Способы оплаты:</p>
+<img class="pay" src="img/1.11.png">
+</div>
+
+</div>
+
+
+</div>
+
+
+</body>
+</html>

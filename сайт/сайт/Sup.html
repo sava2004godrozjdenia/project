@@ -1,0 +1,206 @@
+<!doctype html>
+<head>
+
+<title>Сайт</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="css/css.css">
+  <link href="css/jqcart.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jqcart.min.js"></script>
+<script src="js/developer/jqcart.js"></script>
+
+  <style>
+
+</style>
+<script>
+$(function(){
+  'use strict'; 
+  // инициализация плагина
+  $.jqCart({
+      buttons: '.add_item',
+      handler: 'php/handler.php',
+      cartLabel: '.label-place',
+      visibleLabel: true,
+      openByAdding: false,
+      currency: '&euro;'
+  }); 
+});
+</script>
+
+</head>
+<body>
+<div id="wraper">
+
+<div id="infohead"></div>
+
+
+
+
+<div id="header">
+
+<nav>
+            <ul class="menu1">
+           <li><a href="Sait.html" >Главная</a></li>
+            <li><a href="Sait.html">Меню</a></li>
+            <li><a href="Dostavka.html">Доставка</a></li>
+            <li><a href="#">Акции</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Франшиза</a></li>
+          <li><a href="#">Контакты</a></li>
+            <li><a class="label-place"></a></li>
+          	</ul>
+</nav>
+
+
+
+</div>
+
+
+
+
+<div id="rekl">
+
+<div class="mySliders fade">
+  <div class="numbertext"></div>
+<img src="img/124124123.jpeg" style="width: 100%">
+
+</div>
+
+<div class="mySliders fade">
+  <div class="numbertext"></div>
+<img src="img/123444.jpeg" style="width: 100%">
+
+</div>
+
+<div class="mySliders fade">
+  <div class="numbertext"></div>
+<img src="img/124124.jpeg" style="width: 100%">
+
+</div>
+<a class="prev" onclick="plusSlides(-1)">&#10094</a>
+<a class="next" onclick="plusSlides(1)">&#10094</a>
+</div>
+<br>
+
+<section class="pone1">
+<div id="menu">
+<div class="m1">
+<img src="img/12312312.jpg" width="100%" height="65%" >
+<a class="button" href="Burg.html">Пицца</a>
+</div>
+<div class="m2"></div>
+<div class="m3">
+    <img src="img/5.jpg" width="100%" height="65%"  >
+    <a class="button" href="Gril.html">Гриль</a>
+</div>
+<div class="m4"></div>
+<div class="m5">
+<img src="img/43.jpg" width="100%" height="65%" >
+<a class="button" href="Sous.html">Соусы</a>
+</div>
+<div class="m6"></div>
+<div class="m7">
+<img src="img/7.jpg" width="100%" height="65%" >
+<a class="button" href="Napit.html">Напитки</a>
+</div>
+<div class="m8"></div>
+<div class="m9">
+<img src="img/8.jpg" width="100%" height="65%" >
+<a class="button" href="Sup.html">Супы</a>
+</div>
+<div class="m10"></div>
+<div class="m11">
+<img src="img/9.jpg" width="100%" height="65%" >
+<a class="button" href="Steik.html">Стейки</a>
+</div>
+
+
+</div>
+</section>
+
+
+<section class="pone">
+<div id="content">
+<p>Супы</p>
+</div>
+
+
+<div id="content2">
+    <div class="vir">
+  <div class="b1">
+<img src="img/1.2.7.jpg" width="100%" height="250px" >
+<span class="item-name">СУП MAD PUMPKIN</span>
+<p class="item-desc">Осенняя новинка! Суп-пюре из тыквы, приготовленный по фирменному рецепту шеф-повара. В составе: тыква, лук репчатый, морковь, картофель, рваная говядина, кинза, карри, кориандр, паприка.</p>
+<button  class="add_item qwe" data-id="3" data-title="СУП MAD PUMPKIN"<img src="img/1.2.7.jpg" data-price="1000" data-img="img/1.2.7.jpg" data-count="100500"><p>В корзину</p></button>
+  </div>
+  <div class="b2">
+<img src="img/1.2.8.jpg" width="100%" height="250px"  >
+<span class="item-name">СУП CRAZY POTATO</span>
+<p class="item-desc">Суп-пюре из картофеля с добавлением сливок. В составе: бекон, картофель, лук-порей, мраморная подкопченная грудинка, сливки, чеснок, розмарина и кинзы.</p><br><br>
+<button  class="add_item" data-id="1" data-title="СУП CRAZY POTATO"<img src="img/1.2.8.jpg" data-price="1000" data-img="img/1.2.8.jpg" data-count="100500"><p>В корзину</p></button>
+  </div>  
+  <div class="b3">
+<img src="img/1.2.9.jpg" width="100%" height="250px" >
+<span class="item-name">СУП CHIEESE&BACON</span>
+<p class="item-desc">Суп-пюре на основе сыра и бекона. В составе: картофель, сыр плавленный, бекон, сливки, морковь, лук фри и лук-порей</p><br><br><br>
+<button  class="add_item qwe" data-id="30" data-title="СУП CHIEESE&BACON"<img src="img/1.2.9.jpg" data-price="1000" data-img="img/1.2.9.jpg" data-count="100500"><p>В корзину</p></button>
+  </div>  
+  <div class="b4">
+<img src="img/1.2.10.jpg" width="100%" height="250px" >
+<span class="item-name">СУП WHITE FOREST</span>
+<p class="item-desc">Суп-пюре с нежным грибным вкусом. В составе: картофель, белые грибы, сливки, лук, чеснок, лук фри, петрушка</p><br><br><br><button  class="add_item qwe1" data-id="4" data-title="СУП WHITE FOREST"<img src="img/1.2.10.jpg" data-price="1000" data-img="img/1.2.10.jpg" data-count="100500"><p>В корзину</p></button>
+  </div>
+ 
+  
+  </div>   
+</div>
+
+</div>
+
+
+
+</section>
+
+
+<div id="info">
+
+ <div class="layout">
+   <h3>Как известно, пиццу изобрели в Сибири.</h3>
+    <p class="center">
+      Только сибиряки могли сделать огромную пиццу и положить в нее четверть килограмма мяса. Потом рецепт был украден американскими спецслужбами. И только теперь истинные Сибирские пиццы переживают свой ренессанс.
+    </p>
+    <p class="slogan">
+      Хотите отведать исконно сурового бургера?<br>
+       Тогда идите к нам.<br>
+       Таково наше слово.
+    </p>
+    <div class="hidden-block" style="display: none;">
+      <p>
+      </p>
+    </div>
+
+  </div>
+
+  
+</div>
+
+
+<div id="lastinfo">
+
+  <div class="pay1">
+  <p>Способы оплаты:</p>
+<img class="pay" src="img/1.11.png">
+</div>
+
+</div>
+
+
+
+
+
+
+
+</script>
+<script src="js/js1.js"></script>
+</body>
+</html> 
